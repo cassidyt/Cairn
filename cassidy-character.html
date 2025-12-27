@@ -17,11 +17,11 @@
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-      background-color: #fef3c7; /* amber-50 */
+      background-color: #fef3c7;
       min-height: 100vh;
       font-size: 14px;
       line-height: 1.4;
-      color: #1c1917; /* stone-900 */
+      color: #1c1917;
       -webkit-tap-highlight-color: transparent;
     }
 
@@ -36,7 +36,7 @@
       font-size: 1.5rem;
       font-weight: bold;
       text-align: center;
-      color: #292524; /* stone-800 */
+      color: #292524;
       margin-bottom: 8px;
     }
 
@@ -44,19 +44,19 @@
       display: block;
       font-size: 0.75rem;
       font-weight: bold;
-      color: #57534e; /* stone-600 */
+      color: #57534e;
       margin-bottom: 2px;
     }
 
     .section-title {
       font-size: 0.75rem;
       font-weight: bold;
-      color: #44403c; /* stone-700 */
+      color: #44403c;
     }
 
     .hint-text {
       font-size: 0.75rem;
-      color: #78716c; /* stone-500 */
+      color: #78716c;
       font-weight: normal;
     }
 
@@ -67,7 +67,7 @@
     select {
       font-family: inherit;
       font-size: inherit;
-      border: 2px solid #a8a29e; /* stone-400 */
+      border: 2px solid #a8a29e;
       border-radius: 6px;
       padding: 6px 8px;
       background: white;
@@ -79,7 +79,7 @@
     textarea:focus,
     select:focus {
       outline: none;
-      border-color: #059669; /* emerald-600 */
+      border-color: #059669;
     }
 
     input[type="number"] {
@@ -125,44 +125,44 @@
     }
 
     .btn-primary {
-      background-color: #44403c; /* stone-700 */
+      background-color: #44403c;
       color: white;
       padding: 6px 12px;
       font-size: 0.75rem;
     }
 
     .btn-primary:hover {
-      background-color: #292524; /* stone-800 */
+      background-color: #292524;
     }
 
     .btn-primary:active {
-      background-color: #1c1917; /* stone-900 */
+      background-color: #1c1917;
     }
 
     .btn-secondary {
-      background-color: #57534e; /* stone-600 */
+      background-color: #57534e;
       color: white;
       padding: 6px 12px;
       font-size: 0.75rem;
     }
 
     .btn-secondary:hover {
-      background-color: #44403c; /* stone-700 */
+      background-color: #44403c;
     }
 
     .btn-success {
-      background-color: #047857; /* emerald-700 */
+      background-color: #047857;
       color: white;
       padding: 6px 12px;
       font-size: 0.75rem;
     }
 
     .btn-success:hover {
-      background-color: #065f46; /* emerald-800 */
+      background-color: #065f46;
     }
 
     .btn-success.copied {
-      background-color: #059669; /* emerald-600 */
+      background-color: #059669;
     }
 
     .btn-small {
@@ -173,30 +173,52 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: #d6d3d1; /* stone-300 */
+      background-color: #d6d3d1;
       color: #44403c;
     }
 
     .btn-small:hover {
-      background-color: #a8a29e; /* stone-400 */
+      background-color: #a8a29e;
     }
 
     .btn-small:active {
-      background-color: #78716c; /* stone-500 */
+      background-color: #78716c;
+    }
+
+    .btn-warning {
+      background-color: #d97706;
+      color: white;
+      padding: 6px 12px;
+      font-size: 0.75rem;
+    }
+
+    .btn-warning:hover {
+      background-color: #b45309;
+    }
+
+    .btn-danger {
+      background-color: #dc2626;
+      color: white;
+      padding: 6px 12px;
+      font-size: 0.75rem;
+    }
+
+    .btn-danger:hover {
+      background-color: #b91c1c;
     }
 
     /* ==================== LAYOUT COMPONENTS ==================== */
     .card {
-      background-color: #e7e5e4; /* stone-200 */
-      border: 2px solid #78716c; /* stone-500 */
+      background-color: #e7e5e4;
+      border: 2px solid #78716c;
       border-radius: 8px;
       padding: 8px;
       margin-bottom: 12px;
     }
 
     .card-light {
-      background-color: #f5f5f4; /* stone-100 */
-      border: 2px solid #a8a29e; /* stone-400 */
+      background-color: #f5f5f4;
+      border: 2px solid #a8a29e;
       border-radius: 8px;
       padding: 8px;
       margin-bottom: 12px;
@@ -228,7 +250,6 @@
       gap: 8px;
     }
 
-    /* Stats grid: 3 columns on mobile, 6 on larger screens */
     .stats-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -242,7 +263,6 @@
       }
     }
 
-    /* Traits grid: 2 columns on mobile, 5 on larger screens */
     .traits-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -405,29 +425,12 @@
       margin-left: 8px;
     }
 
-    .currency-btn-gold {
-      background-color: #fde047;
-    }
-
-    .currency-btn-gold:hover {
-      background-color: #facc15;
-    }
-
-    .currency-btn-silver {
-      background-color: #9ca3af;
-    }
-
-    .currency-btn-silver:hover {
-      background-color: #6b7280;
-    }
-
-    .currency-btn-copper {
-      background-color: #fdba74;
-    }
-
-    .currency-btn-copper:hover {
-      background-color: #fb923c;
-    }
+    .currency-btn-gold { background-color: #fde047; }
+    .currency-btn-gold:hover { background-color: #facc15; }
+    .currency-btn-silver { background-color: #9ca3af; }
+    .currency-btn-silver:hover { background-color: #6b7280; }
+    .currency-btn-copper { background-color: #fdba74; }
+    .currency-btn-copper:hover { background-color: #fb923c; }
 
     /* ==================== INVENTORY ==================== */
     .inventory-row {
@@ -482,6 +485,110 @@
     .slots-warning {
       color: #dc2626;
       font-weight: bold;
+    }
+
+    /* ==================== TRANSPORT SECTION ==================== */
+    .transport-section {
+      background-color: #fef9c3;
+      border: 2px solid #ca8a04;
+      border-radius: 8px;
+      padding: 8px;
+      margin-bottom: 12px;
+    }
+
+    .transport-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .transport-header:hover {
+      opacity: 0.8;
+    }
+
+    .transport-title {
+      font-size: 0.75rem;
+      font-weight: bold;
+      color: #854d0e;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .transport-toggle {
+      font-size: 0.75rem;
+      color: #854d0e;
+      transition: transform 0.2s ease;
+    }
+
+    .transport-toggle.expanded {
+      transform: rotate(180deg);
+    }
+
+    .transport-content {
+      margin-top: 8px;
+      display: none;
+    }
+
+    .transport-content.visible {
+      display: block;
+    }
+
+    .transport-info-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .transport-type-select {
+      padding: 6px 8px;
+      font-size: 0.75rem;
+    }
+
+    .transport-name-input {
+      padding: 6px 8px;
+      font-size: 0.75rem;
+    }
+
+    .transport-notes-input {
+      padding: 6px 8px;
+      font-size: 0.75rem;
+      min-height: 40px;
+    }
+
+    .transport-inventory {
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px solid #ca8a04;
+    }
+
+    .transport-slots-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+
+    .transport-slots-label {
+      font-size: 0.75rem;
+      font-weight: bold;
+      color: #854d0e;
+    }
+
+    .transport-slots-count {
+      font-size: 0.75rem;
+      color: #854d0e;
+    }
+
+    .transport-empty {
+      font-size: 0.75rem;
+      color: #a16207;
+      font-style: italic;
+      text-align: center;
+      padding: 12px;
     }
 
     /* ==================== TRAIT DROPDOWN ==================== */
@@ -555,6 +662,15 @@
       margin-bottom: 8px;
     }
 
+    .modal-warning {
+      font-size: 0.75rem;
+      color: #b45309;
+      background-color: #fef3c7;
+      padding: 8px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+
     .modal-textarea {
       width: 100%;
       height: 160px;
@@ -621,7 +737,6 @@
       display: none !important;
     }
 
-    /* Background dropdown custom state */
     .background-custom-row {
       display: flex;
       flex-direction: column;
@@ -852,9 +967,7 @@
     <!-- Traits -->
     <div class="card-light">
       <div class="section-title mb-2">TRAITS <span class="hint-text">(roll d10 or select)</span></div>
-      <div class="traits-grid" id="traitsGrid">
-        <!-- Traits will be generated by JavaScript -->
-      </div>
+      <div class="traits-grid" id="traitsGrid"></div>
     </div>
 
     <!-- Inventory -->
@@ -864,14 +977,51 @@
         <span id="slotsUsed" class="text-xs">0/10</span>
       </div>
       <div class="text-xs hint-text mb-2">Slots: ½ = small/bundled, 1 = normal, 2 = bulky</div>
-      <div id="inventoryList">
-        <!-- Inventory rows will be generated by JavaScript -->
-      </div>
+      <div id="inventoryList"></div>
       <div class="inventory-footer">
         <span class="fatigue-label">Fatigue:</span>
         <input type="number" id="fatigue" class="fatigue-input" min="0" value="0">
         <button class="btn-small stat-btn" onclick="adjustFatigue(-1)">−</button>
         <button class="btn-small stat-btn" onclick="adjustFatigue(1)">+</button>
+      </div>
+    </div>
+
+    <!-- Transport Section -->
+    <div class="transport-section">
+      <div class="transport-header" onclick="toggleTransport()">
+        <span class="transport-title">🐴 TRANSPORT <span class="hint-text" id="transportTypeHint">(none)</span></span>
+        <span class="transport-toggle" id="transportToggle">▼</span>
+      </div>
+      <div class="transport-content" id="transportContent">
+        <div class="transport-info-row">
+          <div>
+            <label class="text-xs">Type</label>
+            <select id="transportType" class="transport-type-select">
+              <option value="none">None</option>
+              <option value="horse">Horse (+4 slots)</option>
+              <option value="cart">Cart (+4 slots, bulky)</option>
+              <option value="mule">Mule (+6 slots, slow)</option>
+              <option value="wagon">Wagon (+8 slots, slow)</option>
+            </select>
+          </div>
+          <div>
+            <label class="text-xs">Name</label>
+            <input type="text" id="transportName" class="transport-name-input" placeholder="e.g., Bessie...">
+          </div>
+        </div>
+        <div class="mb-2">
+          <label class="text-xs">Notes</label>
+          <textarea id="transportNotes" class="transport-notes-input" placeholder="Condition, details..."></textarea>
+        </div>
+        <div class="transport-inventory" id="transportInventorySection">
+          <div class="transport-slots-header">
+            <span class="transport-slots-label">Transport Inventory</span>
+            <span class="transport-slots-count" id="transportSlotsUsed">0/0</span>
+          </div>
+          <div id="transportInventoryList">
+            <div class="transport-empty">Select a transport type to add storage slots</div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -899,9 +1049,26 @@
     </div>
   </div>
 
+  <!-- Transport Change Warning Modal -->
+  <div id="transportWarningModal" class="modal-overlay hidden">
+    <div class="modal-content">
+      <div class="modal-title">⚠️ Change Transport?</div>
+      <div class="modal-warning" id="transportWarningText">
+        Switching transport types will affect items in extra slots.
+      </div>
+      <div class="modal-text">
+        Items in slots that exceed the new transport's capacity will be lost. Do you want to continue?
+      </div>
+      <div class="modal-buttons">
+        <button id="transportWarningCancel" class="btn-cancel">Cancel</button>
+        <button id="transportWarningConfirm" class="btn-warning">Change Anyway</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     // ==================== DATA ====================
-    const STORAGE_KEY = 'cairn-character-standalone';
+    const STORAGE_KEY = 'cairn-character-standalone-v2';
 
     const traitOptions = {
       physique: ['Athletic', 'Brawny', 'Flabby', 'Lanky', 'Rugged', 'Scrawny', 'Short', 'Statuesque', 'Stout', 'Towering'],
@@ -925,6 +1092,22 @@
 
     const slotLabels = ['Hand L', 'Hand R', 'Body 1', 'Body 2', 'Pack 1', 'Pack 2', 'Pack 3', 'Pack 4', 'Pack 5', 'Pack 6'];
 
+    const transportSlots = {
+      none: 0,
+      horse: 4,
+      cart: 4,
+      mule: 6,
+      wagon: 8
+    };
+
+    const transportLabels = {
+      none: 'none',
+      horse: 'Horse +4',
+      cart: 'Cart +4',
+      mule: 'Mule +6',
+      wagon: 'Wagon +8'
+    };
+
     // Character state
     let character = {
       player: '',
@@ -946,7 +1129,13 @@
       copper: 0,
       inventory: Array(10).fill(null).map(() => ({ item: '', slots: 1 })),
       fatigue: 0,
-      notes: ''
+      notes: '',
+      transport: {
+        type: 'none',
+        name: '',
+        notes: '',
+        inventory: []
+      }
     };
 
     let customTraits = {
@@ -957,6 +1146,8 @@
     let customBackground = false;
     let saveTimeout = null;
     let hasSaved = false;
+    let transportExpanded = false;
+    let pendingTransportType = null;
 
     // ==================== INITIALIZATION ====================
     document.addEventListener('DOMContentLoaded', function() {
@@ -965,6 +1156,7 @@
       initializeInventory();
       loadCharacter();
       attachEventListeners();
+      updateTransportUI();
     });
 
     function initializeBackgroundDropdowns() {
@@ -983,7 +1175,6 @@
         customSelect.appendChild(option2);
       });
 
-      // Add custom option
       const customOpt1 = document.createElement('option');
       customOpt1.value = 'custom';
       customOpt1.textContent = 'Custom...';
@@ -1008,7 +1199,6 @@
         label.className = 'trait-label';
         label.textContent = trait.charAt(0).toUpperCase() + trait.slice(1);
 
-        // Standard select
         const standardDiv = document.createElement('div');
         standardDiv.id = `trait-${trait}-standard`;
 
@@ -1035,7 +1225,6 @@
 
         standardDiv.appendChild(select);
 
-        // Custom input row
         const customDiv = document.createElement('div');
         customDiv.className = 'trait-custom-row hidden';
         customDiv.id = `trait-${trait}-custom`;
@@ -1075,7 +1264,6 @@
         container.appendChild(customDiv);
         grid.appendChild(container);
 
-        // Event listeners for trait selects
         select.addEventListener('change', function() {
           handleTraitChange(trait, this.value);
         });
@@ -1149,13 +1337,11 @@
     }
 
     function attachEventListeners() {
-      // Basic fields
       document.getElementById('playerName').addEventListener('input', e => { character.player = e.target.value; scheduleSave(); });
       document.getElementById('charName').addEventListener('input', e => { character.name = e.target.value; scheduleSave(); });
       document.getElementById('charAge').addEventListener('input', e => { character.age = e.target.value; scheduleSave(); });
       document.getElementById('notes').addEventListener('input', e => { character.notes = e.target.value; scheduleSave(); });
 
-      // Stats
       ['str', 'dex', 'wil', 'hp'].forEach(stat => {
         document.getElementById(`${stat}Cur`).addEventListener('input', e => {
           character[stat].current = clamp(parseInt(e.target.value) || 0, 0, 20);
@@ -1177,7 +1363,6 @@
         scheduleSave();
       });
 
-      // Currency
       ['gold', 'silver', 'copper'].forEach(curr => {
         document.getElementById(curr).addEventListener('input', e => {
           character[curr] = Math.max(0, parseInt(e.target.value) || 0);
@@ -1185,14 +1370,12 @@
         });
       });
 
-      // Fatigue
       document.getElementById('fatigue').addEventListener('input', e => {
         character.fatigue = Math.max(0, parseInt(e.target.value) || 0);
         updateSlotsUsed();
         scheduleSave();
       });
 
-      // Background
       document.getElementById('backgroundSelect').addEventListener('change', function() {
         if (this.value === 'custom') {
           customBackground = true;
@@ -1218,18 +1401,50 @@
         scheduleSave();
       });
 
+      // Transport listeners
+      document.getElementById('transportType').addEventListener('change', handleTransportTypeChange);
+      document.getElementById('transportName').addEventListener('input', e => {
+        character.transport.name = e.target.value;
+        scheduleSave();
+      });
+      document.getElementById('transportNotes').addEventListener('input', e => {
+        character.transport.notes = e.target.value;
+        scheduleSave();
+      });
+
+      // Transport warning modal
+      document.getElementById('transportWarningCancel').addEventListener('click', () => {
+        document.getElementById('transportWarningModal').classList.add('hidden');
+        document.getElementById('transportType').value = character.transport.type;
+        pendingTransportType = null;
+      });
+
+      document.getElementById('transportWarningConfirm').addEventListener('click', () => {
+        document.getElementById('transportWarningModal').classList.add('hidden');
+        if (pendingTransportType !== null) {
+          applyTransportTypeChange(pendingTransportType);
+          pendingTransportType = null;
+        }
+      });
+
       // Export/Import/Share buttons
       document.getElementById('exportBtn').addEventListener('click', exportCharacter);
-      document.getElementById('importBtn').addEventListener('click', () => showModal(true));
+      document.getElementById('importBtn').addEventListener('click', () => showModal('importModal', true));
       document.getElementById('shareBtn').addEventListener('click', shareWithWarden);
 
-      // Modal buttons
-      document.getElementById('importCancelBtn').addEventListener('click', () => showModal(false));
+      document.getElementById('importCancelBtn').addEventListener('click', () => showModal('importModal', false));
       document.getElementById('importLoadBtn').addEventListener('click', importCharacter);
 
-      // Close modal on overlay click
       document.getElementById('importModal').addEventListener('click', function(e) {
-        if (e.target === this) showModal(false);
+        if (e.target === this) showModal('importModal', false);
+      });
+
+      document.getElementById('transportWarningModal').addEventListener('click', function(e) {
+        if (e.target === this) {
+          this.classList.add('hidden');
+          document.getElementById('transportType').value = character.transport.type;
+          pendingTransportType = null;
+        }
       });
     }
 
@@ -1307,6 +1522,171 @@
       return used;
     }
 
+    // ==================== TRANSPORT FUNCTIONS ====================
+    window.toggleTransport = function() {
+      transportExpanded = !transportExpanded;
+      const content = document.getElementById('transportContent');
+      const toggle = document.getElementById('transportToggle');
+      
+      if (transportExpanded) {
+        content.classList.add('visible');
+        toggle.classList.add('expanded');
+      } else {
+        content.classList.remove('visible');
+        toggle.classList.remove('expanded');
+      }
+    };
+
+    function handleTransportTypeChange() {
+      const newType = document.getElementById('transportType').value;
+      const currentType = character.transport.type;
+      const currentSlots = transportSlots[currentType];
+      const newSlots = transportSlots[newType];
+
+      // Check if we're losing slots and have items in them
+      if (newSlots < currentSlots) {
+        const itemsAtRisk = [];
+        for (let i = newSlots; i < currentSlots; i++) {
+          if (character.transport.inventory[i] && character.transport.inventory[i].item) {
+            itemsAtRisk.push(character.transport.inventory[i].item);
+          }
+        }
+
+        if (itemsAtRisk.length > 0) {
+          pendingTransportType = newType;
+          document.getElementById('transportWarningText').innerHTML = 
+            `<strong>Items that will be lost:</strong><br>` + 
+            itemsAtRisk.map(item => `• ${item}`).join('<br>');
+          document.getElementById('transportWarningModal').classList.remove('hidden');
+          return;
+        }
+      }
+
+      applyTransportTypeChange(newType);
+    }
+
+    function applyTransportTypeChange(newType) {
+      const newSlots = transportSlots[newType];
+      
+      // Resize inventory array
+      if (newSlots === 0) {
+        character.transport.inventory = [];
+      } else {
+        // Keep existing items up to new size, or expand with empty slots
+        const newInventory = [];
+        for (let i = 0; i < newSlots; i++) {
+          if (character.transport.inventory[i]) {
+            newInventory.push(character.transport.inventory[i]);
+          } else {
+            newInventory.push({ item: '', slots: 1 });
+          }
+        }
+        character.transport.inventory = newInventory;
+      }
+
+      character.transport.type = newType;
+      document.getElementById('transportType').value = newType;
+      updateTransportUI();
+      scheduleSave();
+    }
+
+    function updateTransportUI() {
+      const type = character.transport.type;
+      const slots = transportSlots[type];
+      
+      // Update hint text
+      document.getElementById('transportTypeHint').textContent = `(${transportLabels[type]})`;
+      
+      // Update name and notes
+      document.getElementById('transportName').value = character.transport.name;
+      document.getElementById('transportNotes').value = character.transport.notes;
+      document.getElementById('transportType').value = type;
+
+      // Rebuild transport inventory
+      const list = document.getElementById('transportInventoryList');
+      list.innerHTML = '';
+
+      if (slots === 0) {
+        list.innerHTML = '<div class="transport-empty">Select a transport type to add storage slots</div>';
+        document.getElementById('transportSlotsUsed').textContent = '0/0';
+        return;
+      }
+
+      // Ensure inventory array is correct size
+      while (character.transport.inventory.length < slots) {
+        character.transport.inventory.push({ item: '', slots: 1 });
+      }
+
+      for (let i = 0; i < slots; i++) {
+        const row = document.createElement('div');
+        row.className = 'inventory-row';
+
+        const label = document.createElement('span');
+        label.className = 'inventory-label';
+        label.textContent = `Slot ${i + 1}`;
+
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.className = 'inventory-input';
+        input.id = `transport-item-${i}`;
+        input.placeholder = 'Item...';
+        input.value = character.transport.inventory[i]?.item || '';
+        input.addEventListener('input', function() {
+          character.transport.inventory[i].item = this.value;
+          updateTransportSlotsUsed();
+          scheduleSave();
+        });
+
+        const slotsSelect = document.createElement('select');
+        slotsSelect.className = 'inventory-slots';
+        slotsSelect.id = `transport-slots-${i}`;
+
+        const opt05 = document.createElement('option');
+        opt05.value = '0.5';
+        opt05.textContent = '½';
+        slotsSelect.appendChild(opt05);
+
+        const opt1 = document.createElement('option');
+        opt1.value = '1';
+        opt1.textContent = '1';
+        slotsSelect.appendChild(opt1);
+
+        const opt2 = document.createElement('option');
+        opt2.value = '2';
+        opt2.textContent = '2';
+        slotsSelect.appendChild(opt2);
+
+        slotsSelect.value = (character.transport.inventory[i]?.slots || 1).toString();
+        slotsSelect.addEventListener('change', function() {
+          character.transport.inventory[i].slots = parseFloat(this.value);
+          updateTransportSlotsUsed();
+          scheduleSave();
+        });
+
+        row.appendChild(label);
+        row.appendChild(input);
+        row.appendChild(slotsSelect);
+        list.appendChild(row);
+      }
+
+      updateTransportSlotsUsed();
+    }
+
+    function updateTransportSlotsUsed() {
+      const type = character.transport.type;
+      const maxSlots = transportSlots[type];
+      let used = 0;
+
+      character.transport.inventory.forEach(slot => {
+        if (slot && slot.item) {
+          used += slot.slots;
+        }
+      });
+
+      const display = document.getElementById('transportSlotsUsed');
+      display.textContent = `${used}/${maxSlots}`;
+    }
+
     // ==================== STAT ADJUSTMENTS ====================
     window.adjustStat = function(stat, type, delta) {
       const input = document.getElementById(`${stat}${type === 'current' ? 'Cur' : 'Max'}`);
@@ -1350,7 +1730,7 @@
     function saveCharacter() {
       try {
         const saveData = {
-          version: 1,
+          version: 2,
           character: character,
           customTraits: customTraits,
           customBackground: customBackground,
@@ -1374,7 +1754,9 @@
           const data = JSON.parse(saved);
 
           if (data.character) {
-            // Merge with defaults to handle any missing fields
+            // Ensure transport object exists with defaults
+            const defaultTransport = { type: 'none', name: '', notes: '', inventory: [] };
+            
             character = {
               ...character,
               ...data.character,
@@ -1383,7 +1765,8 @@
               dex: { ...character.dex, ...(data.character.dex || {}) },
               wil: { ...character.wil, ...(data.character.wil || {}) },
               hp: { ...character.hp, ...(data.character.hp || {}) },
-              inventory: data.character.inventory || character.inventory
+              inventory: data.character.inventory || character.inventory,
+              transport: { ...defaultTransport, ...(data.character.transport || {}) }
             };
           }
 
@@ -1402,18 +1785,15 @@
         console.error('Load failed:', err);
       }
 
-      // Update UI with loaded data
       updateAllUI();
     }
 
     function updateAllUI() {
-      // Basic fields
       document.getElementById('playerName').value = character.player;
       document.getElementById('charName').value = character.name;
       document.getElementById('charAge').value = character.age;
       document.getElementById('notes').value = character.notes;
 
-      // Stats
       document.getElementById('strCur').value = character.str.current;
       document.getElementById('strMax').value = character.str.max;
       document.getElementById('dexCur').value = character.dex.current;
@@ -1425,34 +1805,30 @@
       document.getElementById('armor').value = character.armor;
       document.getElementById('deprived').checked = character.deprived;
 
-      // Currency
       document.getElementById('gold').value = character.gold;
       document.getElementById('silver').value = character.silver;
       document.getElementById('copper').value = character.copper;
 
-      // Background
       updateBackgroundUI();
 
-      // Traits
       Object.keys(traitOptions).forEach(trait => {
         updateTraitUI(trait);
       });
 
-      // Inventory
       character.inventory.forEach((slot, i) => {
         document.getElementById(`inv-item-${i}`).value = slot.item;
         document.getElementById(`inv-slots-${i}`).value = slot.slots.toString();
       });
 
-      // Fatigue & slots
       document.getElementById('fatigue').value = character.fatigue;
       updateSlotsUsed();
+      updateTransportUI();
     }
 
     // ==================== EXPORT/IMPORT/SHARE ====================
     function exportCharacter() {
       const exportData = {
-        version: 1,
+        version: 2,
         character: character,
         customTraits: customTraits,
         customBackground: customBackground
@@ -1469,7 +1845,6 @@
           btn.classList.remove('copied');
         }, 2000);
       }).catch(() => {
-        // Fallback for older browsers
         window.prompt('Copy this JSON:', json);
       });
     }
@@ -1480,11 +1855,9 @@
 
       try {
         const imported = JSON.parse(importText);
-
-        // Handle both old format (just character) and new format (with version)
         const charData = imported.version ? imported.character : imported;
+        const defaultTransport = { type: 'none', name: '', notes: '', inventory: [] };
 
-        // Merge with defaults
         character = {
           player: charData.player || '',
           name: charData.name || '',
@@ -1502,31 +1875,28 @@
           copper: charData.copper || 0,
           inventory: charData.inventory || character.inventory,
           fatigue: charData.fatigue || 0,
-          notes: charData.notes || ''
+          notes: charData.notes || '',
+          transport: { ...defaultTransport, ...(charData.transport || {}) }
         };
 
-        // Handle customTraits
         if (imported.version && imported.customTraits) {
           customTraits = { ...customTraits, ...imported.customTraits };
         } else {
-          // Detect custom traits from data
           Object.keys(traitOptions).forEach(trait => {
             const value = character.traits[trait] || '';
             customTraits[trait] = value && !traitOptions[trait].includes(value);
           });
         }
 
-        // Handle customBackground
         if (imported.version && imported.customBackground !== undefined) {
           customBackground = imported.customBackground;
         } else {
           customBackground = character.background && !backgroundOptions.includes(character.background);
         }
 
-        // Update UI and save
         updateAllUI();
         saveCharacter();
-        showModal(false);
+        showModal('importModal', false);
 
       } catch (err) {
         errorDiv.textContent = 'Invalid JSON. Please check and try again.';
@@ -1551,13 +1921,34 @@
         .map(([k, v]) => `${k.charAt(0).toUpperCase() + k.slice(1)}: ${v}`)
         .join(', ');
 
+      // Build transport section if applicable
+      let transportText = '';
+      if (c.transport.type !== 'none') {
+        const transportItems = c.transport.inventory
+          .filter(s => s && s.item)
+          .map(s => {
+            if (s.slots === 2) return `${s.item} (bulky)`;
+            if (s.slots === 0.5) return `${s.item} (small)`;
+            return s.item;
+          });
+        
+        const transportName = c.transport.name ? ` "${c.transport.name}"` : '';
+        transportText = `\nTransport: ${transportLabels[c.transport.type]}${transportName}`;
+        if (transportItems.length > 0) {
+          transportText += ` — ${transportItems.join(', ')}`;
+        }
+        if (c.transport.notes) {
+          transportText += ` (${c.transport.notes})`;
+        }
+      }
+
       const syncText = `📋 SYNC: ${c.name || 'Unnamed'}${c.player ? ` (Player: ${c.player})` : ''}
 Age: ${c.age || '?'} | Background: ${c.background || '?'}
 HP: ${c.hp.current}/${c.hp.max} | Armor: ${c.armor} | Deprived: ${c.deprived ? 'Yes' : 'No'}
 STR: ${c.str.current}/${c.str.max} | DEX: ${c.dex.current}/${c.dex.max} | WIL: ${c.wil.current}/${c.wil.max}
 Gold: ${c.gold} | Silver: ${c.silver} | Copper: ${c.copper}
 Inventory (${usedSlots}/10 slots): ${inventoryItems.length > 0 ? inventoryItems.join(', ') : 'Empty'}
-Fatigue: ${c.fatigue}
+Fatigue: ${c.fatigue}${transportText}
 Traits: ${traits || 'None set'}
 Notes: ${c.notes || 'None'}`;
 
@@ -1572,16 +1963,16 @@ Notes: ${c.notes || 'None'}`;
       });
     }
 
-    function showModal(show) {
-      const modal = document.getElementById('importModal');
-      const errorDiv = document.getElementById('importError');
-      const textArea = document.getElementById('importText');
-
+    function showModal(modalId, show) {
+      const modal = document.getElementById(modalId);
+      
       if (show) {
         modal.classList.remove('hidden');
-        textArea.value = '';
-        errorDiv.classList.add('hidden');
-        textArea.focus();
+        if (modalId === 'importModal') {
+          document.getElementById('importText').value = '';
+          document.getElementById('importError').classList.add('hidden');
+          document.getElementById('importText').focus();
+        }
       } else {
         modal.classList.add('hidden');
       }
